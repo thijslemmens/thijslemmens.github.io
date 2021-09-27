@@ -1,0 +1,9 @@
+plugins {
+    id 'org.jbake.site' version '5.4.0'
+}
+
+jbake {
+    configuration['render.archive'] = false
+    configuration['render.feed'] = false
+    configuration['header.separator'] = '---'
+}
